@@ -8,6 +8,8 @@ body {
     background: rgb(235, 184, 76);
     padding: 20px;
 }
+
+
 header {
     max-width: 1000px;
     min-height: 130px;
@@ -15,6 +17,8 @@ header {
     background: #feffbf;
     border-radius: 20px 20px 0 0;
 }
+
+
 #logo {
     width: 500px;
     height: 10px;
@@ -23,21 +27,28 @@ header {
     animation: 1s entradalogo 1;
     float: left;
 }
+
+
 #logo img{
     width: 106px;
     margin-top: 20px;
 }
+
+
 #menu-horizontal {
     max-width: 1000px;
     min-height: 50px;
     background: #000;
     margin: 0 auto;
 }
+
+
 #menu-horizontal ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
+
 
 #menu-horizontal a {
     color: #fff;
@@ -48,48 +59,68 @@ header {
     font-family: Arial;
     font-size: 18px;
 }
+
+
 #menu-horizontal a:hover {
     background: #069;
 }
+
+
 #menu-horizontal ul ul {
     display: none;
     position: absolute;
 }
+
+
 #menu-horizontal ul li:hover ul {
     display: block;
 }
+
+
 #banner {
     max-width: 1000px;
     min-height: 250px;
     background: hsl(44, 100%, 84%);
     margin: 0 auto;
 }
+
+
 #banner img{
     max-width: 300px;
     min-height: 350px;
 }
+
+
 #contenedor {
     max-width: 1000px;
     min-height: 700px;
     background: #fff;
     margin: 0 auto;
 }
+
+
 #menu-vertical {
     width: 300px;
     min-height: 700px;
     background: #cfb894;
     float: left;
 }
+
+
 #menu-vertical img {
 width: 15px;
 height: 20px;
 margin-top: 3px;
 margin-left: 3px;
 }
+
+
 #menu-vertical ul {
     list-style: none;
     padding: 10px;
 }
+
+
 #menu-vertical a {
     display: block;
     color: #fff;
@@ -101,12 +132,18 @@ margin-left: 3px;
     font-family: arial;
     font-size: 18px;
 }
+
+
 #menu-vertical a:hover {
     background: #036;
 }
+
+
 #menu-vertical a:hover img {
     animation: 1s rotacion 1;
 }
+
+
 #contenido {
     width: 700px;
     min-height: 700px;
@@ -115,16 +152,22 @@ margin-left: 3px;
     padding: 15px;
     box-sizing: border-box;
 }
+
+
 #contenido h2 {
     text-align: center;
     margin-bottom: 30px;
 }
+
+
 #contenido p {
     margin-bottom: 10px;
     font-family: arial;
     font-size: 18px;
     text-align: justify;
 }
+
+
 .img-izq {
     float: left;
     margin-right: 10px;
@@ -133,6 +176,8 @@ margin-left: 3px;
     border: 1px solid #ccc;
     padding: 5px;
 }
+
+
 footer {
     max-width: 1000px;
     background: #000;
@@ -145,6 +190,8 @@ footer {
     font-family: arial;
     font-size: 18px;
 }
+
+
 @keyframes entradalogo {
     0% {
         transform: translateX(200px);
