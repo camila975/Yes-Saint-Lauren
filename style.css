@@ -197,6 +197,8 @@ footer {
         transform: translateX(200px);
     }
 }
+
+
 @keyframes rotacion {
     0% {
         transform: rotate(270deg);
